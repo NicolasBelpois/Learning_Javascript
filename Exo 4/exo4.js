@@ -1,6 +1,6 @@
 //Exercice : Pair et impair (for)
 for (var i = 0; i <= 20; i++) {
-    if (i % 2 == 0) {
+    if (i % 2 == 1) {
       console.log(i + " est pair");
 
     } else{
@@ -44,8 +44,7 @@ for (var k = 0; k <= 100; k++) {
 //Exercice : pyramide
 
 var etoile = "";
-var size = 4;
-for(var i=0; i<=size; i++)
+for(var i=0; i<=4; i++)
 {
   etoile += "*";
   console.log(etoile);
