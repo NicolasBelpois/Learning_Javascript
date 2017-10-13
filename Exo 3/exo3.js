@@ -10,4 +10,9 @@ var multi = function (a, b) {
 }
 var pourc = function (a, b) {
     return ((a * 100) / b)
+
+}
+function kmh(distance, temps) {
+  return (distance/temps);
+
 }
