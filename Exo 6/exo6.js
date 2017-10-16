@@ -4,16 +4,9 @@
 var Pendu = ["B","O","N","J","O","U","R"];
 var Devine =  ["","","","","","","",]
 var fin = Pendu.length;
-var stocke = true;
 
 
-var stocke = function(){
-  if (stocke = true) {
-     
 
-
-  }
-}
 
 
 
