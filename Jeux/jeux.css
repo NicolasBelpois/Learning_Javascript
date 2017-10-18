@@ -1,0 +1,62 @@
+.main{
+  margin: auto;
+  background-color: grey;
+  width: 640px;
+  height: 100vh;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.ecranJeux{
+  margin: auto;
+  height: 400px;
+  background-color: green;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.ecranAction{
+  margin: auto;
+  background-color: blue;
+  width: 90%;
+  height: 250px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.ecranHistorique{
+  margin: auto;
+  background-color: red;
+  width: 90%;
+  height: 120px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.ecranInfo{
+  margin: auto;
+  background-color: yellow;
+  width: 90%;
+  height: 200px;
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.ecranCompetences{
+  float: right;
+  margin-right: 29px;
+  background-color: purple;
+  width: 40%;
+  height: 190px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.ecranInfoPerso{
+  float: left;
+  margin-left: 29px;
+  background-color: purple;
+  width: 40%;
+  height: 190px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-top: 5px;
+}
