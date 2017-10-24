@@ -2,7 +2,8 @@ var nombreEssai = 0;
 var nombreMini = 20;
 var nombreMaxi = 80;
 var random = 0;
-var reapet = 0;
+
+
 
 
 function randomNumber() {
@@ -16,11 +17,9 @@ function guessNumber() {
  if (isNaN(nombre)) {
     alert("Okay ceci n'est pas un nombre Bertrand... tu peut le faire, choisi juste entre 20 et 80.")
     nombreEssai++;
-    reapet++;
     guessNumber();
   }else if (nombre <= 19 || nombre >= 81) {
     nombreEssai++;
-    reapet++;
     alert("Ont a dit, un nombre ENTRE 20 ET 80 BERTRAND !!");
     guessNumber();
   }else if (nombre > random) {
