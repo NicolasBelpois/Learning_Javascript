@@ -1,0 +1,17 @@
+.hoverMe{
+  display: inline-block;
+  width: 33%;
+  height: 33%;
+  background-color: red;
+
+}
+body{
+
+  width: 640px;
+  height: 100vh;
+}
+.reset{
+  width: 33%;
+  height: 33%;
+  background-color: purple;
+}
